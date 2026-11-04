@@ -1,403 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Privacy Policy &amp; Terms of Service — WA Box</title>
-  <meta name="description" content="Privacy Policy and Terms of Service for WA Box: Status Saver &amp; Tools (com.wabox.status.saver.tools)."/>
-  <style>
-    :root {
-      --primary: #1fa887;
-      --primary-dark: #178f72;
-      --bg: #eef8f4;
-      --card: #ffffff;
-      --text: #0f172a;
-      --muted: #5b6b73;
-      --border: #d7ebe3;
-      --soft: #ecfdf7;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.65;
-      padding: 1.25rem 1rem 3rem;
-    }
-    .wrap {
-      max-width: 860px;
-      margin: 0 auto;
-    }
-    .nav {
-      position: sticky;
-      top: 0.75rem;
-      z-index: 10;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      background: rgba(255,255,255,0.94);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 0.65rem 0.85rem;
-      margin-bottom: 1.25rem;
-      backdrop-filter: blur(8px);
-    }
-    .nav a {
-      color: var(--primary-dark);
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 0.92rem;
-      padding: 0.35rem 0.7rem;
-      border-radius: 999px;
-    }
-    .nav a:hover { background: var(--soft); }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 2rem 2.1rem 2.4rem;
-      box-shadow: 0 8px 28px -16px rgba(15, 23, 42, 0.18);
-    }
-    header { padding-bottom: 1.25rem; border-bottom: 1px solid var(--border); margin-bottom: 1.25rem; }
-    h1 { font-size: 1.85rem; letter-spacing: -0.03em; margin-bottom: 0.45rem; }
-    h2 {
-      font-size: 1.28rem;
-      margin: 1.85rem 0 0.7rem;
-      padding-top: 0.4rem;
-    }
-    h3 { font-size: 1.05rem; margin: 1.2rem 0 0.45rem; }
-    p, li { color: #334155; font-size: 0.98rem; }
-    p { margin-bottom: 0.9rem; }
-    ul, ol { padding-left: 1.2rem; margin-bottom: 1rem; }
-    li { margin-bottom: 0.35rem; }
-    .meta { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.7rem; }
-    .badge {
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: var(--muted);
-      background: #f4faf8;
-      border: 1px solid var(--border);
-      padding: 0.22rem 0.65rem;
-      border-radius: 999px;
-    }
-    .note {
-      background: var(--soft);
-      border-left: 4px solid var(--primary);
-      padding: 0.95rem 1.1rem;
-      border-radius: 0 10px 10px 0;
-      margin: 1rem 0 1.2rem;
-      color: #065f46;
-    }
-    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
-    th, td { text-align: left; padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--border); vertical-align: top; }
-    th { background: #f7fbf9; }
-    .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; margin: 1rem 0 1.3rem; }
-    a { color: var(--primary-dark); }
-    .contact {
-      background: #f7fbf9;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1rem 1.15rem;
-      margin: 0.6rem 0 1.1rem;
-    }
-    footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 1.4rem; }
-    section[id] { scroll-margin-top: 4.5rem; }
-    @media (max-width: 640px) {
-      .card { padding: 1.35rem 1.15rem 1.7rem; }
-      h1 { font-size: 1.45rem; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - PromptSher – AI Prompt Generator</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1a1a1a;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 18px;
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        p, li {
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .meta-info {
+            background-color: #f1f5f9;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        .meta-info p {
+            margin: 5px 0;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <div class="wrap">
-    <nav class="nav">
-      <a href="#privacy">Privacy Policy</a>
-      <a href="#terms">Terms of Service</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <article class="card">
-      <header>
-        <h1>WA Box: Status Saver &amp; Tools</h1>
-        <p>Privacy Policy and Terms of Service for the Android app published on Google Play.</p>
-        <div class="meta">
-          <span class="badge">Package: com.wabox.status.saver.tools</span>
-          <span class="badge">Last updated: 4 November 2026</span>
-          <span class="badge">Publisher contact: businessdevsoft@gmail.com</span>
+    <div class="container">
+        <h1>Privacy Policy for PromptSher – AI Prompt Generator</h1>
+        <div class="meta-info">
+            <p><strong>Last updated:</strong> September 2, 2026</p>
+            <p><strong>App name:</strong> PromptSher – AI Prompt Generator</p>
+            <p><strong>Package name:</strong> com.promptsher.app</p>
+            <p><strong>Developer / Operator:</strong> Software Lab</p>
+            <p><strong>Contact email:</strong> <a href="mailto:businessdevsfot@gmail.com">businessdevsfot@gmail.com</a></p>
         </div>
-      </header>
 
-      <div class="note">
-        WA Box is an independent utility. It is not affiliated with, authorized by, sponsored by, or endorsed by WhatsApp Inc., Meta Platforms, Inc., or any related company. WhatsApp is a trademark of the respective owner.
-      </div>
+        <p>This Privacy Policy explains how PromptSher (“we,” “us,” or “the App”) handles information when you use the mobile application PromptSher – AI Prompt Generator.</p>
+        
+        <p>By installing or using the App, you agree to this Privacy Policy. If you do not agree, please uninstall and do not use the App.</p>
 
-      <section id="privacy">
-        <h2>1. Privacy Policy</h2>
-        <p>
-          This Privacy Policy explains how the publisher of <strong>WA Box: Status Saver &amp; Tools</strong> (“WA Box”, “we”, “us”) handles information when you use the Android application identified as package <strong>com.wabox.status.saver.tools</strong>.
-        </p>
-        <p>
-          WA Box is designed to run on your device. We do not require you to create a WA Box account. We do not operate a WA Box chat server that stores your conversations.
-        </p>
+        <h2>1. Summary</h2>
+        <p>PromptSher is a gallery app for AI photo prompts. Most data stays on your device. We do not require you to create an account. We do not sell your personal information.</p>
+        <p>The App needs internet access to load the prompt catalog and images from our content servers. It may open third-party AI services (such as ChatGPT or Gemini) only when you choose to. Optional local reminder notifications require your permission.</p>
 
-        <h3>1.1 What the app does</h3>
-        <p>WA Box provides on-device tools related to messaging utilities, including:</p>
+        <h2>2. Information we collect</h2>
+        <h3>2.1 Information stored only on your device</h3>
+        <p>The App may store the following locally on your phone (for example using on-device storage):</p>
         <ul>
-          <li>Direct Chat by phone number</li>
-          <li>Status Saver</li>
-          <li>Optional message recovery from notifications you already received</li>
-          <li>In-app WhatsApp Web / multi-profile web sessions</li>
-          <li>Chat tools (speech-to-text, fancy fonts, text tools)</li>
-          <li>Media tools (compressor, enhancer, background remover, GIF, PDF tools)</li>
-          <li>Scheduler and message repeater</li>
-          <li>Cleaner for WhatsApp media already on the device</li>
-          <li>Auto reply (optional)</li>
-          <li>App lock (PIN stored on the device)</li>
-          <li>Overlay / popup-ad detector</li>
+            <li>Cached prompt catalog (IDs, image URLs, prompt text, categories, keywords) for faster loading and offline use</li>
+            <li>Cached image data / image URL records to help display photos you already viewed</li>
+            <li>Favorites (photo IDs you mark with a heart)</li>
+            <li>Collections (names and photo IDs you save)</li>
+            <li>Search and browse preferences related to how the App works on your device</li>
+        </ul>
+        <p>This local data is not uploaded to us as a user profile. The current version of PromptSher does not create an online account for you.</p>
+
+        <h3>2.2 Information processed when you use online features</h3>
+        <p>When the App is online, it may request:</p>
+        <ul>
+            <li>Prompt catalog data from our content host, currently: <a href="https://image.photoprompts.fyi/prompts.json" target="_blank">https://image.photoprompts.fyi/prompts.json</a></li>
+            <li>Images from the image URLs listed in that catalog (hosted on our content domain / CDN)</li>
+        </ul>
+        <p>Technical details that are normal for any internet connection may be processed by hosting and network providers (for example IP address, device/network type, time of request). That is needed to deliver files. It is not used by PromptSher as a personal account profile.</p>
+
+        <h3>2.3 Information we do not intentionally collect</h3>
+        <p>In the current version of PromptSher, we do not intentionally collect or require:</p>
+        <ul>
+            <li>Name, email, or phone number to use the core App</li>
+            <li>Payment card data inside the App (purchases through Google Play, if any, are handled by Google)</li>
+            <li>Precise GPS location</li>
+            <li>Contacts, microphone, or camera access</li>
+            <li>Social login (Google / Facebook login inside the App)</li>
         </ul>
 
-        <h3>1.2 Information processed on your device</h3>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Information</th>
-                <th>Why it is used</th>
-                <th>Sent to WA Box servers?</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Phone numbers you type or pick</td>
-                <td>Direct Chat, Scheduler, Repeater, recents</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>Contacts (only if you allow Contacts)</td>
-                <td>Let you pick a recipient; WA Box does not upload your address book</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>Saved statuses and exported media</td>
-                <td>Keep copies you choose to save</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>Notification content (optional)</td>
-                <td>Message Recovery and Auto Reply after you grant Notification Access</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>Scheduled / repeated message text</td>
-                <td>Send or open WhatsApp at the time you choose</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>WhatsApp Web cookies / session data</td>
-                <td>Keep a linked web session on this phone</td>
-                <td>No (stored locally; the web session talks to WhatsApp’s own servers)</td>
-              </tr>
-              <tr>
-                <td>Photos, videos, audio, documents you select</td>
-                <td>Compress, convert, preview, clean, or save</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>Speech audio / transcript</td>
-                <td>Speech-to-text</td>
-                <td>No WA Box upload; processed by the device / system speech service</td>
-              </tr>
-              <tr>
-                <td>App lock PIN</td>
-                <td>Optional lock screen for the app</td>
-                <td>No</td>
-              </tr>
-              <tr>
-                <td>App settings and preferences</td>
-                <td>Remember your choices</td>
-                <td>No</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p>We do not sell personal information. We do not use your chats, contacts, or media to build advertising profiles.</p>
+        <h2>3. How we use information</h2>
+        <p>We use information only to:</p>
+        <ol>
+            <li>Show prompts and photos from the remote catalog</li>
+            <li>Cache content on your device for speed and so photos do not vanish when you refresh</li>
+            <li>Update the local catalog when new photos, prompts, categories, or keywords are published</li>
+            <li>Save favorites and collections on your device</li>
+            <li>Let you search prompts using keywords and optional category filters</li>
+            <li>Send optional local reminder notifications if you allow notifications</li>
+            <li>Open third-party AI tools (ChatGPT, Gemini, or their websites) when you tap those buttons</li>
+            <li>Copy prompts to your clipboard when you choose Copy Prompt</li>
+        </ol>
+        <p>We do not sell your personal information.</p>
 
-        <h3>1.3 Permissions</h3>
-        <p>Android may show permission prompts. You can deny a permission; the related feature will not work until you allow it.</p>
+        <h2>4. Notifications</h2>
+        <p>If you grant notification permission, the App may schedule local reminders on your device (for example a daily message encouraging you to try new prompts).</p>
         <ul>
-          <li><strong>Internet</strong> — open WhatsApp / wa.me links and load official WhatsApp Web.</li>
-          <li><strong>Microphone</strong> — speech-to-text.</li>
-          <li><strong>Photos / videos / audio / storage</strong> — Status Saver, Cleaner, compressor, PDF/GIF/enhancer, and similar tools.</li>
-          <li><strong>Contacts</strong> — pick a number from your address book when you choose to.</li>
-          <li><strong>Notifications (post)</strong> — remind you about scheduled sends and recovery alerts.</li>
-          <li><strong>Notification access (optional)</strong> — Message Recovery and Auto Reply copy notifications already shown on this phone. This does not decrypt WhatsApp’s private database.</li>
-          <li><strong>Accessibility (optional)</strong> — after you enable it, WA Box may tap Send in WhatsApp for scheduled or repeated messages you started. It is not used to read your screen for advertising.</li>
-          <li><strong>Exact alarms / battery exceptions (optional)</strong> — fire scheduled messages on time.</li>
-          <li><strong>Full-screen intent / vibration / boot completed / foreground service</strong> — wake a scheduled “Send now” screen when the phone is locked or the app is in the background.</li>
+            <li>You can turn off notifications in your phone’s system settings at any time.</li>
+            <li>These reminders are local device notifications. They are not exact alarm-clock or calendar features.</li>
+            <li>The App does not use the restricted USE_EXACT_ALARM permission.</li>
         </ul>
 
-        <h3>1.4 Third-party services</h3>
-        <p>WA Box may open or communicate with services we do not control:</p>
+        <h2>5. Clipboard</h2>
+        <p>If you use Copy Prompt, or tap ChatGPT / Gemini, the selected prompt text may be placed on your device clipboard so you can paste it. Clipboard content is controlled by your device and operating system. We do not operate a separate clipboard cloud service for this App.</p>
+
+        <h2>6. Advertising ID</h2>
+        <p>The App may declare the permission:</p>
+        <p><code>com.google.android.gms.permission.AD_ID</code></p>
+        <p>This is the Google advertising ID permission used for ads and related measurement on Android, if and when ads are shown.</p>
         <ul>
-          <li><strong>WhatsApp / WhatsApp Business</strong> — chats, status files, and WhatsApp Web are provided by Meta. Their terms and privacy policy apply when you use WhatsApp.</li>
-          <li><strong>Android system speech recognition</strong> — may process audio according to your device / Google or OEM settings.</li>
-          <li><strong>Google Play / Android</strong> — install, updates, and crash or integrity services operated by Google.</li>
-          <li><strong>On-device ML Kit (background remover)</strong> — image processing on the device.</li>
-        </ul>
-        <p>
-          The current production version of WA Box does not include an ads SDK. If we later add Google AdMob or similar advertising, we will update this Privacy Policy and the Play Data safety form before those ads go live. An ads SDK typically uses device identifiers (such as Advertising ID) and technical data to serve and measure ads.
-        </p>
-
-        <h3>1.5 How long information stays on the device</h3>
-        <p>
-          Local data remains until you delete it in the app (for example recovered chats, saved statuses, web profiles, scheduled jobs) or you clear app storage / uninstall WA Box. Uninstalling removes WA Box’s app data. Media you exported to your gallery or Downloads remains in those folders unless you delete it there.
-        </p>
-
-        <h3>1.6 Security</h3>
-        <p>
-          Data processed by WA Box is stored in the app’s private storage or in folders you choose. The app is configured not to participate in Android Auto Backup of app data. No method of storage is perfectly secure. You are responsible for who can unlock your phone.
-        </p>
-
-        <h3>1.7 Children</h3>
-        <p>
-          WA Box is not directed at children under 13. Do not use the app if you are under 13. We do not knowingly collect personal information from children under 13. If you believe a child provided such information through the app, contact us and we will help you remove local data by uninstalling or clearing storage.
-        </p>
-
-        <h3>1.8 International users</h3>
-        <p>
-          Because WA Box does not operate a WA Box backend for your chats, we do not transfer your message content to our servers. If you use WhatsApp Web or WhatsApp itself, those services may transfer data under their own policies.
-        </p>
-
-        <h3>1.9 Your choices</h3>
-        <ul>
-          <li>Deny or revoke permissions in Android Settings.</li>
-          <li>Turn off Notification Access or Accessibility for WA Box.</li>
-          <li>Delete recovered chats, saved statuses, web profiles, and jobs in the app.</li>
-          <li>Uninstall WA Box to remove its local app data.</li>
+            <li>You can reset or opt out of ads personalization in your Google / Android settings.</li>
+            <li>If ads are not currently shown, this permission may still be present for future ad support.</li>
         </ul>
 
-        <h3>1.10 Changes to this Privacy Policy</h3>
-        <p>
-          We may update this Privacy Policy. The “Last updated” date at the top will change when we do. Continued use of the app after an update means you acknowledge the revised policy.
-        </p>
-      </section>
+        <h2>7. Third-party services</h2>
+        <h3>7.1 Content hosting</h3>
+        <p>Prompt lists and images may be loaded from remote servers/CDNs, including hosts under domains such as photoprompts.fyi (for example image.photoprompts.fyi). Those providers process technical request data needed to deliver files.</p>
 
-      <section id="terms">
-        <h2>2. Terms of Service</h2>
-        <p>
-          These Terms of Service (“Terms”) are a legally binding agreement between you and the publisher of WA Box listed on Google Play (contact: <a href="mailto:businessdevsoft@gmail.com">businessdevsoft@gmail.com</a>).
-        </p>
-        <p>
-          By downloading, installing, or using WA Box, you agree to these Terms and to the Privacy Policy above. If you do not agree, do not use the app and uninstall it.
-        </p>
-
-        <h3>2.1 Eligibility</h3>
-        <p>You must be at least 13 years old and able to form a binding contract. If you use the app on behalf of an organization, you confirm you have authority to bind that organization.</p>
-
-        <h3>2.2 License</h3>
-        <p>
-          We grant you a personal, limited, revocable, non-exclusive, non-transferable license to install and use WA Box on Android devices you own or control, solely for lawful purposes and in line with these Terms and Google Play’s rules.
-        </p>
-        <p>You may not copy, modify, reverse engineer, redistribute, or resell the app except as allowed by applicable law.</p>
-
-        <h3>2.3 Independent utility — not WhatsApp</h3>
-        <p>
-          WA Box is a third-party utility. It is not an official WhatsApp product. Using WA Box does not give you extra rights in WhatsApp. You must also follow WhatsApp’s own terms. WhatsApp may change, limit, or block unofficial clients, web sessions, accessibility actions, or document sharing. We are not responsible for WhatsApp account bans, limits, or feature changes.
-        </p>
-
-        <h3>2.4 Your responsibilities</h3>
-        <p>You agree that you will:</p>
+        <h3>7.2 ChatGPT / Gemini and other AI tools</h3>
+        <p>If you tap ChatGPT or Gemini:</p>
         <ul>
-          <li>Use the app only on a device you are allowed to use.</li>
-          <li>Only save, recover, compress, or share content you have the right to handle.</li>
-          <li>Not use Direct Chat, Scheduler, Repeater, Auto Reply, or similar tools to send spam, scams, threats, or unsolicited bulk messages.</li>
-          <li>Not use the app to harass others, impersonate anyone, or break the law.</li>
-          <li>Not attempt to decrypt, hack, or extract WhatsApp’s private message database.</li>
-          <li>Review each scheduled or repeated send; keep the phone powered on and unlocked when a feature requires it.</li>
-          <li>Grant optional permissions only if you understand what they do.</li>
+            <li>The App may open the third-party app or website.</li>
+            <li>The App may also put the prompt on your clipboard to help you paste it.</li>
+            <li>Any data you submit inside ChatGPT, Gemini, or another AI service is governed by that provider’s privacy policy, not this one.</li>
+        </ul>
+        <p>Examples (policies may change; always check the official page):</p>
+        <ul>
+            <li>OpenAI / ChatGPT: <a href="https://openai.com/privacy" target="_blank">https://openai.com/privacy</a></li>
+            <li>Google / Gemini: <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></li>
         </ul>
 
-        <h3>2.5 Important limits of the features</h3>
+        <h3>7.3 Google Play</h3>
+        <p>If you download the App from Google Play, Google may collect install, crash, and usage data under Google’s terms and privacy policy.</p>
+
+        <h3>7.4 Advertising partners (if ads are enabled)</h3>
+        <p>If ads are enabled, advertising partners such as Google AdMob may process device advertising identifiers and related technical data under their own policies.</p>
+
+        <h2>8. Children’s privacy</h2>
+        <p>The App is intended for a general audience. It is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children. If you believe a child has provided personal information through the App, contact us and we will take appropriate steps.</p>
+
+        <h2>9. Data retention</h2>
         <ul>
-          <li><strong>Message Recovery</strong> stores copies of notifications received after you enable Notification Access. It cannot recover older encrypted chats that never appeared as notifications.</li>
-          <li><strong>Scheduled / repeated sending</strong> opens WhatsApp with your text and may use Accessibility to tap Send. Delivery is not guaranteed. Locked screens, battery savers, OEM limits, and WhatsApp itself can block or delay sending.</li>
-          <li><strong>WhatsApp Web in the app</strong> loads official web.whatsapp.com in a WebView. Session cookies stay on the device. Performance depends on your phone and WhatsApp’s website.</li>
-          <li><strong>Video as PDF document</strong> packs the original video into a PDF so you can share it as a document. Recipients need a PDF app that can open the attached file. We do not guarantee WhatsApp will keep that behavior forever.</li>
-          <li><strong>Cleaner</strong> lists WhatsApp media already on the device and can delete files you select, subject to Android permission dialogs.</li>
+            <li>Local cache, favorites, and collections: kept until you clear app data, uninstall the App, or we change storage in an update</li>
+            <li>Temporary network requests: as needed to load content; not retained by us as a user account file</li>
+        </ul>
+        <p>Uninstalling the App typically removes local App storage, subject to your device settings.</p>
+
+        <h2>10. Security</h2>
+        <p>We take reasonable measures appropriate to a mobile app (for example HTTPS for content loading where configured). No method of transmission or storage is 100% secure. Please use the App on an updated device and operating system.</p>
+
+        <h2>11. Your choices and controls</h2>
+        <p>You can:</p>
+        <ul>
+            <li>Deny or revoke notification permission in system settings</li>
+            <li>Reset or limit advertising ID / ads personalization in Android settings</li>
+            <li>Clear App data or uninstall to remove local cache, favorites, and collections</li>
+            <li>Avoid ChatGPT / Gemini buttons if you do not want to use third-party AI services</li>
+            <li>Use previously cached content when offline (new photos will not appear until you are online)</li>
         </ul>
 
-        <h3>2.6 Optional system services</h3>
-        <p>
-          If you enable Notification Listener or Accessibility for WA Box, you authorize those services only for the features described in the Privacy Policy (recovery, auto reply, and assisted sending you initiate). You can disable them at any time in Android Settings.
-        </p>
+        <h2>12. International users</h2>
+        <p>Content servers may be located in different countries. By using the App, you understand that technical request data may be processed in locations where those servers operate, subject to applicable law.</p>
 
-        <h3>2.7 Intellectual property</h3>
-        <p>
-          The app, name, logo, and original content belong to the publisher or its licensors. Third-party trademarks (including WhatsApp) remain the property of their owners. Media you import remains yours; you grant WA Box a limited on-device license to process that media solely to provide the feature you requested.
-        </p>
+        <h2>13. Changes to this Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. The “Last updated” date will change when we do. Continued use of the App after an update means you accept the revised policy, where permitted by law.</p>
 
-        <h3>2.8 Fees</h3>
-        <p>
-          The app may be offered free, paid, or with later in-app products or ads. Google Play handles payments according to Google’s terms. We do not currently require a WA Box subscription.
-        </p>
+        <h2>14. Contact us</h2>
+        <p>For privacy questions or requests:</p>
+        <p><strong>Email:</strong> <a href="mailto:businessdevsfot@gmail.com">businessdevsfot@gmail.com</a><br>
+        <strong>Developer:</strong> Software Lab</p>
 
-        <h3>2.9 Disclaimer of warranties</h3>
-        <p>
-          WA BOX IS PROVIDED “AS IS” AND “AS AVAILABLE.” TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE, UNINTERRUPTED, OR COMPATIBLE WITH EVERY DEVICE OR WITH FUTURE VERSIONS OF ANDROID OR WHATSAPP.
-        </p>
-
-        <h3>2.10 Limitation of liability</h3>
-        <p>
-          TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE PUBLISHER AND ITS OFFICERS, EMPLOYEES, AND PARTNERS ARE NOT LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR LOST PROFITS, LOST DATA, LOST MESSAGES, ACCOUNT RESTRICTIONS, OR DEVICE DAMAGE, ARISING FROM YOUR USE OF WA BOX.
-        </p>
-        <p>
-          OUR TOTAL LIABILITY FOR ANY CLAIM RELATING TO THE APP IS LIMITED TO THE AMOUNT YOU PAID TO US FOR THE APP IN THE 12 MONTHS BEFORE THE CLAIM, OR USD 10, WHICHEVER IS GREATER.
-        </p>
-        <p>Some jurisdictions do not allow certain limitations; in those places, the limits apply to the fullest extent allowed.</p>
-
-        <h3>2.11 Indemnity</h3>
-        <p>
-          You will defend and indemnify the publisher against claims, damages, and reasonable legal fees arising from your misuse of the app, your content, your violation of these Terms, or your violation of WhatsApp’s terms or any law.
-        </p>
-
-        <h3>2.12 Termination</h3>
-        <p>
-          You may stop using the app at any time by uninstalling it. We may stop offering the app or disable features if required by law, Google Play policy, or technical reasons. Sections that should survive (including license restrictions, disclaimers, liability limits, and indemnity) remain in effect.
-        </p>
-
-        <h3>2.13 Changes to the Terms</h3>
-        <p>
-          We may update these Terms. The “Last updated” date will change when we do. If you continue using the app after an update, you accept the new Terms. If you do not accept them, uninstall the app.
-        </p>
-
-        <h3>2.14 Governing law</h3>
-        <p>
-          These Terms are governed by the laws of the jurisdiction in which the publisher identified on the Google Play listing is established, excluding conflict-of-law rules. Courts in that jurisdiction have exclusive venue, except where consumer law gives you the right to sue in your home country.
-        </p>
-
-        <h3>2.15 Entire agreement</h3>
-        <p>
-          These Terms and the Privacy Policy are the entire agreement between you and us about WA Box. If a court finds one part unenforceable, the rest still applies. Our failure to enforce a right is not a waiver.
-        </p>
-      </section>
-
-      <section id="contact">
-        <h2>3. Contact</h2>
-        <p>For privacy requests, terms questions, or legal notices about WA Box:</p>
-        <div class="contact">
-          Publisher email: <a href="mailto:businessdevsoft@gmail.com">businessdevsoft@gmail.com</a><br/>
-          App: WA Box: Status Saver &amp; Tools<br/>
-          Package: com.wabox.status.saver.tools<br/>
-          Platform: Google Play (Android)
-        </div>
-        <p>Please include the app name and a description of your request. We will respond as soon as reasonably possible.</p>
-      </section>
-    </article>
-
-    <footer>
-      © 2026 WA Box publisher. All rights reserved. Not affiliated with WhatsApp or Meta.
-    </footer>
-  </div>
+        <h2>15. Play Store short version (optional)</h2>
+        <p>PromptSher stores favorites, collections, and a cached prompt list on your device. It loads photos and prompts from our content servers over the internet. Optional daily notifications require your permission. If you open ChatGPT or Gemini, those services have their own privacy policies. The App may use the Android advertising ID if ads are shown. We do not sell your personal data.</p>
+    </div>
 </body>
 </html>
